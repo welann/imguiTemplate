@@ -93,55 +93,61 @@ int main()
 
         ImNodes::BeginNodeEditor();
 
-        // ImGui::Begin("simple node editor");
 
-        // ImNodes::BeginNodeEditor();
+
+
+        // ImNodes::BeginNode(1);
+
+        // ImNodes::BeginNodeTitleBar();
+        // ImGui::TextUnformatted("simple node :)");
+        // ImNodes::EndNodeTitleBar();
+
+        // ImNodes::BeginInputAttribute(2);
+        // ImGui::Text("input");
+        // ImNodes::EndInputAttribute();
+
+        // ImNodes::BeginOutputAttribute(3);
+        // ImGui::Indent(40);
+        // ImGui::Text("output");
+        // ImNodes::EndOutputAttribute();
+
+        // ImNodes::EndNode();
         ImNodes::BeginNode(1);
 
         ImNodes::BeginNodeTitleBar();
-        ImGui::TextUnformatted("simple node :)");
+        ImGui::TextUnformatted("output node");
         ImNodes::EndNodeTitleBar();
 
-        ImNodes::BeginInputAttribute(2);
-        ImGui::Text("input");
-        ImNodes::EndInputAttribute();
-
-        ImNodes::BeginOutputAttribute(3);
-        ImGui::Indent(40);
-        ImGui::Text("output");
+        const int output_attr_id = 2;
+        ImNodes::BeginOutputAttribute(2);
+        // in between Begin|EndAttribute calls, you can call ImGui
+        // UI functions
+        ImGui::Text("output pin");
         ImNodes::EndOutputAttribute();
 
         ImNodes::EndNode();
-        // ImNodes::EndNodeEditor();
-
-        // ImGui::End();
-
-        // ImNodes::BeginNode(hardcoded_node_id);
-        // ImGui::Dummy(ImVec2(80.0f, 45.0f));
-        // ImNodes::EndNode();
 
 
-        // ImNodes::BeginNode(hardcoded_node_id);
-        // const int output_attr_id = 2;
-        // ImNodes::BeginOutputAttribute(output_attr_id);
-        // // in between Begin|EndAttribute calls, you can call ImGui
-        // // UI functions
-        // ImGui::Text("output pin");
-        // ImNodes::EndOutputAttribute();
+        ImNodes::BeginNode(2);
+
+        ImNodes::BeginNodeTitleBar();
+        ImGui::TextUnformatted("output node");
+        ImNodes::EndNodeTitleBar();
         
-        // ImNodes::EndNode();
+        ImNodes::BeginInputAttribute(3);
+        ImGui::Text("input pin");
+        ImNodes::EndInputAttribute();
 
+        // const int output_attr_id = 2;
+        ImNodes::BeginOutputAttribute(4);
+        // in between Begin|EndAttribute calls, you can call ImGui
+        // UI functions
+        ImGui::Text("output pin");
+        ImNodes::EndOutputAttribute();
 
-        // ImNodes::BeginNode(hardcoded_node_id);
-
-        // const int output_attr_id1 = 3;
-        // ImNodes::BeginOutputAttribute(output_attr_id1);
-        // // in between Begin|EndAttribute calls, you can call ImGui
-        // // UI functions
-        // ImGui::Text("output pin");
-        // ImNodes::EndOutputAttribute();
-
-        // ImNodes::EndNode();
+        ImNodes::EndNode();
+        
+        ImNodes::Link(0,2,3);
         
 
 
