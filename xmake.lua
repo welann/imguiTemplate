@@ -1,14 +1,14 @@
 add_rules("mode.debug", "mode.release")
 
 
-add_requires("imgui","glfw","opengl","glad")
+add_requires("glfw","opengl","glad")
 
 target("imguiTemplate")
     set_kind("binary")
     add_includedirs("include")
     add_files("include/*.cpp")
     add_files("src/*.cpp")---这里使用**.cpp来递归搜索路径下的所有cpp文件
-    add_packages("opengl","glfw","glad","imgui")
+    add_packages("opengl","glfw","glad")
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
 --

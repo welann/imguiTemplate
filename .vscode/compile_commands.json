@@ -1,41 +1,46 @@
 [
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_widgets.cpp.o", "include/imgui_widgets.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imnodes.cpp.o", "include/imnodes.cpp"],
+  "file": "include/imnodes.cpp"
+},
+{
+  "directory": "/home/welann/imguiTemplate",
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_widgets.cpp.o", "include/imgui_widgets.cpp"],
   "file": "include/imgui_widgets.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_tables.cpp.o", "include/imgui_tables.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_tables.cpp.o", "include/imgui_tables.cpp"],
   "file": "include/imgui_tables.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_demo.cpp.o", "include/imgui_demo.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_demo.cpp.o", "include/imgui_demo.cpp"],
   "file": "include/imgui_demo.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_draw.cpp.o", "include/imgui_draw.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_draw.cpp.o", "include/imgui_draw.cpp"],
   "file": "include/imgui_draw.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_impl_glfw.cpp.o", "include/imgui_impl_glfw.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_impl_glfw.cpp.o", "include/imgui_impl_glfw.cpp"],
   "file": "include/imgui_impl_glfw.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_impl_opengl3.cpp.o", "include/imgui_impl_opengl3.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui_impl_opengl3.cpp.o", "include/imgui_impl_opengl3.cpp"],
   "file": "include/imgui_impl_opengl3.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui.cpp.o", "include/imgui.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/include/imgui.cpp.o", "include/imgui.cpp"],
   "file": "include/imgui.cpp"
 },
 {
   "directory": "/home/welann/imguiTemplate",
-  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/imgui", "-I", "/home/welann/.xmake/packages/i/imgui/v1.87/2de23753ece740dc8f4a161c038229d8/include/backends", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/src/main.cpp.o", "src/main.cpp"],
+  "arguments": ["/usr/bin/ccache", "/usr/bin/gcc", "-c", "-m64", "-Iinclude", "-D_GLFW_X11", "-DGLFW_INCLUDE_NONE", "-I", "/home/welann/.xmake/packages/g/glfw/3.3.6/703496809fe34548a9dbcf268bfa4db5/include", "-I", "/home/welann/.xmake/packages/g/glad/v0.1.36/dd6f7de88060486a93ea896ea2b462ea/include", "-o", "build/.objs/imguiTemplate/linux/x86_64/debug/src/main.cpp.o", "src/main.cpp"],
   "file": "src/main.cpp"
 }]
